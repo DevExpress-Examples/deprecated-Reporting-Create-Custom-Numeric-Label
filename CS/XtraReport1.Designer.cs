@@ -26,6 +26,7 @@
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrNumericLabel1 = new Reporting_Create_Custom_Numeric_Label.XRNumericLabel();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // TopMargin
@@ -38,7 +39,18 @@
             // 
             // Detail
             // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrNumericLabel1});
             this.Detail.Name = "Detail";
+            // 
+            // xrNumericLabel1
+            // 
+            this.xrNumericLabel1.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 10.00001F);
+            this.xrNumericLabel1.Multiline = true;
+            this.xrNumericLabel1.Name = "xrNumericLabel1";
+            this.xrNumericLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrNumericLabel1.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrNumericLabel1.Text = "0";
             // 
             // XtraReport1
             // 
@@ -57,5 +69,6 @@
         private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
         private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
         private DevExpress.XtraReports.UI.DetailBand Detail;
+        private XRNumericLabel xrNumericLabel1;
     }
 }

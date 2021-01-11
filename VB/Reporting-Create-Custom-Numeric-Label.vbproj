@@ -146,6 +146,7 @@
     <EmbeddedResource Include="XtraReport1.resx">
       <DependentUpon>XtraReport1.vb</DependentUpon>
     </EmbeddedResource>
+    <None Include="sync.json" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
@@ -155,6 +156,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

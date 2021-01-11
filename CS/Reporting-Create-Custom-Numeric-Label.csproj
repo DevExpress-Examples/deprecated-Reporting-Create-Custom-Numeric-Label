@@ -128,6 +128,7 @@
     <EmbeddedResource Include="XtraReport1.resx">
       <DependentUpon>XtraReport1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="sync.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -137,6 +138,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
