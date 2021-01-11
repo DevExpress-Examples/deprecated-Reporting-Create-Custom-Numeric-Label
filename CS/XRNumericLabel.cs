@@ -46,13 +46,7 @@ namespace Reporting_Create_Custom_Numeric_Label {
             );
 
             ExpressionBindingDescriptor.SetPropertyDescription(
-                typeof(XRNumericLabel),
-                nameof(Number),
-                new ExpressionBindingDescription(
-                    eventNames, position,
-                    nestedBindableProperties,
-                    scopeName
-                )
+                typeof(XRNumericLabel), nameof(Number), description
             );
         }
     }

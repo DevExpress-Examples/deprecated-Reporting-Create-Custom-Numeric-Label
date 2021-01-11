@@ -45,7 +45,7 @@ Namespace Reporting_Create_Custom_Numeric_Label
 			' Create and set description for the "Number" property.
 			Dim description As New ExpressionBindingDescription(eventNames, position, nestedBindableProperties, scopeName)
 
-			ExpressionBindingDescriptor.SetPropertyDescription(GetType(XRNumericLabel), NameOf(Number), New ExpressionBindingDescription(eventNames, position, nestedBindableProperties, scopeName))
+			ExpressionBindingDescriptor.SetPropertyDescription(GetType(XRNumericLabel), NameOf(Number), description)
 		End Sub
 	End Class
 End Namespace
